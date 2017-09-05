@@ -49,12 +49,14 @@ class MoviesTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! MovieTableViewCell
         
         let movie = movies[indexPath.row]
         
-        cell.textLabel?.text = movie.title
-        cell.detailTextLabel?.text = "🌟 \(movie.rating)/10"
+        cell.ivPoster.image = UIImage(named: movie.imageSmall)
+        cell.lbTitle.text = movie.title
+        cell.lbSummary.text = movie.summary
+        cell.lbRating.text = "⭐️ \(movie.rating)/10"
         
         return cell
     }
