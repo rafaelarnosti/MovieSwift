@@ -55,6 +55,10 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <connections>
+                                    <outlet property="ivPoster" destination="UTX-F3-Aes" id="8KA-FV-U0a"/>
+                                    <outlet property="lbRating" destination="2xj-OR-P48" id="SWT-T7-QAB"/>
+                                    <outlet property="lbSummary" destination="Yfg-DW-nn2" id="XMj-if-j8b"/>
+                                    <outlet property="lbTitle" destination="jCm-Gx-ysv" id="kjN-Ke-d3p"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="3iO-eU-w6e"/>
                                 </connections>
                             </tableViewCell>
