@@ -62,6 +62,7 @@
                                         <constraint firstItem="Yfg-DW-nn2" firstAttribute="leading" secondItem="UTX-F3-Aes" secondAttribute="trailing" constant="14" id="4yu-s8-hgm"/>
                                         <constraint firstItem="jCm-Gx-ysv" firstAttribute="top" secondItem="Pgg-44-MYb" secondAttribute="top" constant="6" id="7db-4H-OU5"/>
                                         <constraint firstAttribute="trailing" secondItem="Yfg-DW-nn2" secondAttribute="trailing" constant="10" id="87h-YY-qnG"/>
+                                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="UTX-F3-Aes" secondAttribute="bottom" constant="19" id="8ed-vH-KFT"/>
                                         <constraint firstAttribute="bottom" secondItem="2xj-OR-P48" secondAttribute="bottom" constant="10" id="DfU-h3-La8"/>
                                         <constraint firstItem="2xj-OR-P48" firstAttribute="leading" secondItem="UTX-F3-Aes" secondAttribute="trailing" constant="14" id="b48-g0-aXX"/>
                                         <constraint firstItem="jCm-Gx-ysv" firstAttribute="leading" secondItem="UTX-F3-Aes" secondAttribute="trailing" constant="14" id="dGa-Aj-Izm"/>
@@ -69,7 +70,7 @@
                                         <constraint firstItem="UTX-F3-Aes" firstAttribute="leading" secondItem="Pgg-44-MYb" secondAttribute="leading" constant="12" id="koC-TS-FJq"/>
                                         <constraint firstAttribute="trailing" secondItem="jCm-Gx-ysv" secondAttribute="trailing" constant="10" id="v76-9V-AUa"/>
                                         <constraint firstAttribute="trailing" secondItem="2xj-OR-P48" secondAttribute="trailing" constant="10" id="wY2-Yn-grr"/>
-                                        <constraint firstItem="2xj-OR-P48" firstAttribute="top" secondItem="Yfg-DW-nn2" secondAttribute="bottom" priority="250" constant="25.5" id="wnh-Yw-EH1"/>
+                                        <constraint firstItem="2xj-OR-P48" firstAttribute="top" secondItem="Yfg-DW-nn2" secondAttribute="bottom" priority="250" constant="6" id="wnh-Yw-EH1"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
